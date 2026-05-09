@@ -5,12 +5,12 @@
 ![Domain](https://img.shields.io/badge/Domain-Statistical%20Classification-2E75B6)
 ![Dataset](https://img.shields.io/badge/Dataset-UCI%20Adult%20Census-orange)
 
-## 📌 Overview
+##  Overview
 A statistical classification project predicting whether an individual's annual income exceeds **$50,000** using demographic and employment features from the **UCI Adult Census Income dataset**. This project demonstrates end-to-end binary classification — from EDA and preprocessing to model evaluation and interpretation.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Explore and visualize demographic predictors of income level
 - Build and evaluate a **Logistic Regression** classification model
 - Compare performance against Random Forest using AUC-ROC
@@ -18,7 +18,7 @@ A statistical classification project predicting whether an individual's annual i
 
 ---
 
-## 📊 Dataset
+##  Dataset
 | Attribute | Details |
 |-----------|---------|
 | Source | UCI Machine Learning Repository |
@@ -29,7 +29,7 @@ A statistical classification project predicting whether an individual's annual i
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Exploratory Data Analysis
 - Age distributions by income group (KDE plots)
@@ -57,7 +57,7 @@ A statistical classification project predicting whether an individual's annual i
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 - **Education level** and **capital gains** are the strongest predictors of income > 50K
 - **Marital status** (married individuals) shows significantly higher income rates
 - Logistic Regression achieves **~85% accuracy** with AUC ~0.88 — strong interpretable baseline
@@ -65,13 +65,13 @@ A statistical classification project predicting whether an individual's annual i
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language:** Python 3.x
 - **Key Libraries:** `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 ```bash
 # 1. Clone the repository
 git clone https://github.com/pratham-singh-stats/census-income-prediction
@@ -88,7 +88,7 @@ python census_income_prediction.py
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 ```
 03_census_income/
 │
